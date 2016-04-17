@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SudokuSolver:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SudokuSolver_jar</output-path>
+    <root id="archive" name="SudokuSolver.jar">
+      <element id="module-output" name="SudokuSolverStripped" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/Sudoku.jar" path-in-jar="/" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+    </root>
+  </artifact>
+</component>

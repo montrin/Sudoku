@@ -2,6 +2,9 @@ import java.util.ArrayList;
 
 /**
  * Created by monicatrink on 16/04/16.
+ * Entity class for Domains which contain row and col coordinates and possible valid values for this position
+ * in the square
+ * Example: (row = 0, column = 0) can have as {1,2,3,4,5,6,7,8,9} valid values
  */
 public class Domain implements Comparable<Domain> {
     int row;
